@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d4d4d4;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #1a0e24;
+    color: #d4d4d4;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .about-fronts {
+    margin-right: 32px;
+}
+
+section li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section li a {
+    text-decoration: none;
+}
+
+.about button a {
+    text-decoration: none;
+    color: #1a0e24;
+    font-weight: bold;
+}
+
+.about button {
+    background-color: #e4a101;
+    display: block;
+    width: 200px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.about button:hover {
+    text-decoration: underline;
+}
+
+#recomendations h2 {
+    text-align: center;
+    color: #1c1121;
+    margin-bottom: 16px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #e4a101;
+    color: #1a0e24;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+#recomendations {
+    background-color: #bdbbbb;
+}
+
+.social-links img {
+    height: 24px;
+    margin-top: 8px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #e4a101;
+    color: #1a0e24;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffc337;
+}
+
+input:focus, textarea:focus {
+    outline-color: #e4a101;
+}
+
+footer {
+    background-color: #1a0e24;
+    color: #d4d4d4;
+    text-align: center;
+    padding: 16px 0;
+}
